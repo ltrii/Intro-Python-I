@@ -13,7 +13,7 @@ import sys
 # YOUR CODE HERE
 lst = sys.argv
 for x in lst:
-    print(x + "/n")
+    print(x + "\n")
 
 # Print out the OS platform you're using:
 # YOUR CODE HERE

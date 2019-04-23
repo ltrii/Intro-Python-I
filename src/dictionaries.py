@@ -53,7 +53,7 @@ waypoints[0]['lon'] = -130
 # YOUR CODE HERE
 for waypoint in waypoints:
     for key,value in waypoint.items():
-        print(key + ": " + str(value) + "/n")
+        print(key + ": " + str(value) + "\n")
 
 # for x in waypoints:
 #     for key in x:
