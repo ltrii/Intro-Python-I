@@ -1,5 +1,3 @@
-!!
-
 """
 Python provides a number of ways to perform printing. Research
 how to print using the printf operator, the `format` string 
@@ -14,7 +12,7 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
-print("x is %x, y is %y, z is %z")
+print("x is %i, y is %g, z is %s" % (x, y, z))
 
 # Use the 'format' string method to print the same thing
 
