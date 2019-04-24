@@ -13,7 +13,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # foo = open('foo.txt', 'r')
 with open('foo.txt') as foo:
     read_data = foo.read()
-read_data
+print(read_data)
 foo.closed
 
 

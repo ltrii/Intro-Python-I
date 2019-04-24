@@ -46,13 +46,15 @@ if year == None:
 if month == None:
   month = datetime.date.today().strftime("%B")
 
-if month > 12 & month < 1:
-  print("Month provided is outside of range (1-12)")
+if month > 12:
+  print("Month provided is above range")
+elif month < 1:
+  print("Month provided is below range")
+else:
+  month = int(month)
+  year = int(year)
 
-month = int(month)
-year = int(year)
-
-cal = calendar.TextCalendar(firstweekday=6)
-curCal = cal.formatmonth(year, month)
-print(curCal)
+  cal = calendar.TextCalendar(firstweekday=6)
+  curCal = "\n" + cal.formatmonth(year, month)
+  print(curCal)
 

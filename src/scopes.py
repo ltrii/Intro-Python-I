@@ -8,6 +8,7 @@
 x = 12
 
 def changeX():
+    global x
     x = 99
 
 changeX()
