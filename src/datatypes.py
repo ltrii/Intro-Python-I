@@ -15,7 +15,15 @@ y = "7"
 
 # YOUR CODE HERE
 
+newy = int(y)
+pr1 = x + newy
+print(pr1)
+
 
 # Write a print statement that combines x + y into the string value 57
+
+newx = str(x)
+pr2 = newx + y
+print(pr2)
 
 # YOUR CODE HERE
